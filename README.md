@@ -1,8 +1,13 @@
-# Getting Started with Create React App
+# JERSEY MANIA Website
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Website Specialities
+
+*Jersey Selling Activites
+*Detailed honest reviews of buyers
+*Special Dashboard which includes sales and revenues*
+*A detailed Blog Section whoch contains some questions and answers
 
 In the project directory, you can run:
 
