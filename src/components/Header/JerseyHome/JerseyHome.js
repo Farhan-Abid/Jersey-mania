@@ -1,5 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useJerseys from '../../../Hooks/useJerseys';
+import Jersey from '../../Jersey/Jersey';
 import './JerseyHome.css';
 
 const JerseyHome = () => {
@@ -21,7 +23,14 @@ const JerseyHome = () => {
            
             </div>
             <div className="jersey-review-container">
-                <h2>reviews</h2>
+                {
+                    jerseys.map(jersey => <Jersey
+                    key={jersey.id} 
+                    jersey={jersey}
+                    ></Jersey>)
+                }
+                <br />
+                <Link to="/reviews"><button>See All reviews</button></Link>
             </div>
         </div>
         
