@@ -1,7 +1,12 @@
 .jersey-individual-review{
-    height: 400px;
+    height: 700px;
+    box-shadow:  10px 5px 12px lightblue;
+    margin-bottom: 30px;
 }
 
 .jersey-individual-review img{
-    height: 250px;
+    height: 450px;
+    width: 400px;
+    border: 4px solid whitesmoke;
+    border-radius: 10px;
 }

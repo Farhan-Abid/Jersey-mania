@@ -1,7 +1,9 @@
 .jersey{
-    height: 400px;
+    height: 750px;
+    box-shadow:  10px 5px 12px lightblue;
 }
 
 .jersey img{
-    height: 250px;
+    height: 500px;
+    width: 400px;
 }

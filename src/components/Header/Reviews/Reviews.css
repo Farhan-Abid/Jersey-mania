@@ -1,5 +1,6 @@
 .jersey-reviews{
     display: grid;
-    grid-template-columns: 3fr 3fr;
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
+    margin-top: 30px;
 }

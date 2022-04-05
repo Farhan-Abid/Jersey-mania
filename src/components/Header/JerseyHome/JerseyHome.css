@@ -2,11 +2,48 @@
     display: grid;
     grid-template-columns: 2fr 2fr;
     align-items: center;
+    margin-top: 30px;
+    box-shadow: 10px 10px 5px darkgray;
+    height: 500px;
+    width: 1200px;
+    margin-left: 50px;
+    background-color:rgb(154, 241, 151);
+    
 }
 
 .jersey-review-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
+    margin-top: 30px;
     
 }
+
+.jersey-pic-container img{
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 25px;
+
+}
+
+.jersey-text-container{
+    margin-left: 50px;
+}
+
+.jersey-text-container h1{
+    color: #f1bc2a;
+  text-shadow: 2px 2px 4px #000000;
+  font-weight: 900;
+}
+
+.jersey-text-container p{
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.781);
+}
+
+.see-all-button{
+    margin-top: 20px;
+}
+
+

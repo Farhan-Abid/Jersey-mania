@@ -11,9 +11,11 @@ const JerseyHome = () => {
         <div>
             <div className="jersey-container">
             <div className="jersey-text-container">
-            <h1>Your Desired Jersey</h1> <br />
+            <h1>Your Desired Jersey</h1>
             <h1>Is our main priority</h1> <br/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam optio labore officia non esse. Minus iure veniam voluptates quisquam! Veritatis corrupti eius omnis facere nam sed voluptatum quia! Dolorum, Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quam libero, explicabo necessitatibus quia laboriosam labore vitae ex praesentium fugit voluptatum repudiandae sequi unde? Cumque, earum necessitatibus! Nostrum, dolorem. Quaerat?</p>
+            <p>Looking to buy some awesome jersey with premium category and design?
+            No Problem. We are here at your service with best possible price and design.We are here to provide you the best design of some popular club and country's jersey so that you dont feel a bit hesitate to choose the best product for you.
+            </p>
 
             </div>
             <div className="jersey-pic-container">
@@ -22,6 +24,7 @@ const JerseyHome = () => {
             </div>
            
             </div>
+            <h1>Customer Reviews</h1>
             <div className="jersey-review-container">
                 {
                     jerseys.map(jersey => <Jersey
@@ -29,9 +32,11 @@ const JerseyHome = () => {
                     jersey={jersey}
                     ></Jersey>).slice(0,3)
                 }
-                <br />
-                <Link to="/reviews"><button>See All reviews</button></Link>
+                
             </div>
+            <div className='see-all-button'>
+                <Link to="/reviews"><button class="button">See All Reviews!</button></Link>
+                </div>
         </div>
         
         

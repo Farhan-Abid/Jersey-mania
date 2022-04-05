@@ -12,8 +12,7 @@ const Reviews = () => {
     }, []);
     return (
         <div className='jersey-reviews'>
-            <h2>See What our Customer Says...</h2>
-            <br />
+           
             {
                     jerseys.map(jersey => <Review 
                     key={jersey.id}
