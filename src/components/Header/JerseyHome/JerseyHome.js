@@ -17,7 +17,7 @@ const JerseyHome = () => {
 
             </div>
             <div className="jersey-pic-container">
-                
+                <img src="https://images.unsplash.com/photo-1616124619460-ff4ed8f4683c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=398&q=80" alt="" />
                 
             </div>
            
@@ -27,7 +27,7 @@ const JerseyHome = () => {
                     jerseys.map(jersey => <Jersey
                     key={jersey.id} 
                     jersey={jersey}
-                    ></Jersey>)
+                    ></Jersey>).slice(0,3)
                 }
                 <br />
                 <Link to="/reviews"><button>See All reviews</button></Link>
