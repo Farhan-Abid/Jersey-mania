@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Live Site Link 
 
-https://jersey-mania-react.netlify.app/reviews
+https://jersey-mania-react.netlify.app/
 
 ## Website Specialities
 
