@@ -4,10 +4,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Website Specialities
 
-*Jersey Selling Activites<br>
-*Detailed honest reviews of buyers<br>
-*Special Dashboard which includes sales and revenues*<br>
-*A detailed Blog Section whoch contains some questions and answers
+***
+
+* Jersey Selling Activites
+* Detailed honest reviews of buyers
+* Special Dashboard which includes sales and revenues*
+* A detailed Blog Section whoch contains some questions and answers
 
 In the project directory, you can run:
 
